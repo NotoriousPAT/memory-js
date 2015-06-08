@@ -1,0 +1,138 @@
+body{
+  background:#ffffff;
+  padding: 45px;
+}
+
+
+.title{
+  background:#000080;
+  margin: 0 50px 0 50px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 20px;
+  border-style:ridge;
+  border-width:thick;
+  border-color:#ffffff;
+}
+
+
+.container{
+  width: 250px;
+  height: 500px;
+  color: #6500ff;
+  background-color: #ccff00;
+  border-radius: 20px;
+  margin: -120px auto auto 100px;
+}
+
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size:100px;
+  text-align: right;
+  margin-left:auto;
+  margin-right:250px;
+  color:#ffffff;
+  display: block;
+  letter-spacing: 1px;
+}
+
+
+.icon-bulb{
+  color:#ccff00;
+}
+
+
+.nav{
+  list-style-type:none;
+  style:bold;
+  font-family:sans-serif;
+  font-size:28px;
+  color: #7cd200;
+}
+
+button{
+  width: 60px;
+  height:40px;
+  border: none;
+  color: #ffffff;
+  background-color: #7cd200;
+  border-radius: 8px;
+  float: left;
+  margin-left: 30px;
+  font-family:sans-serif;
+  font-size:18px;
+}
+
+
+.button-right{
+  margin-left: 10px;
+}
+
+
+.clock{
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+
+.icon-heart{
+  font-family: untitled-font-1;
+  letter-spacing: 2px;
+  margin: 30px auto 30px 30px;
+  width:5px;
+  word-wrap:break-word;
+}
+
+
+
+.game-container{
+  box-sizing: border-box;
+  margin: -200px ;
+  width: 650px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+
+.tile-container{
+  height: 400px;
+  width: 820px;
+  padding: 12.5px;
+  margin: -460px auto auto 280px;
+  border-radius: 20px;
+
+}
+
+
+.tile{
+  font-size: 100px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 125px;
+  height:125px;
+  background-color:#7cd200;
+  padding:12px;
+  color:#ccff00;
+  border-radius:8px;
+  margin: 1px;
+}
+
+.clicked{
+  font-size: 80px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 125px;
+  height:125px;
+  background-color:#ffffff;
+  padding:15px;
+  color:#6500ff;
+  border-radius:8px;
+  margin:-50px 10px 10px 10px;
+  border-style:ridge;
+  border-width:thick;
+  border-color:#6500ff;
+
+}

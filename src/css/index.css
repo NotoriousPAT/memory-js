@@ -1,0 +1,39 @@
+
+
+div#memory_board{
+  max-width:1040px;
+  max-height:1040px;
+  min-width:320px;
+  min-height:320px;
+
+  /*box-sizing: border-box;*/
+  background:#ccff00;
+  padding:1px;
+  padding:10px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius:8px;
+  border-style:ridge;
+  border-width:12px;
+  border-color:#ffffff;
+
+}
+
+
+
+
+
+
+div#memory_board>div{
+    background-color:#7cd200;
+    width:166px;
+    height:166px;
+    margin-bottom:5px;
+    margin-right:.1px;
+    margin-left: .1px;
+    border-radius:8px;
+    /*float: left;
+    text-align: center;
+    cursor: pointer;*/
+
+  }

@@ -1,0 +1,132 @@
+/*--------------------------------------
+            The Memory Game
+---------------------------------------*/
+body{
+  background:#000080;
+}
+
+.game-container{
+  background:#000080;
+  display:block;
+  overflow:auto;
+}
+
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size:90px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  color:white;
+  display: block;
+  letter-spacing: 1px;
+}
+
+
+.icon-bulb{
+  color:#ccff00;
+}
+
+
+.game-life{
+  list-style-type:none;
+  padding:0;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.icon-heart{
+  font-family: untitled-font-1;
+  color:white;
+  letter-spacing: 2px;
+  font-size:28px;
+}
+
+
+.clock{
+  font-size:28px;
+  color:white;
+  style:bold;
+
+
+}
+.game-board{
+  max-width:1040px;
+  max-height:1040px;
+  min-width:320px;
+  min-height:320px;
+  background:#ccff00;
+  padding:1px;
+  display:block;
+  padding:10px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius:8px;
+  border-style:ridge;
+  border-width:12px;
+  border-color:#ffffff;
+
+}
+
+
+.colored-tile{
+  background:#7cd200;
+  display:inline-block;
+  width:166px;
+  height:166px;
+  margin-bottom:5px;
+  margin-right:.1px;
+  margin-left: .1px;
+  border-radius:8px;
+}
+
+
+.animated.flipOutX,
+.animated.flipOutY {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+
+
+.game-card{
+  opacity:0;
+  display:inline-block;
+  line-height: 154px;
+  margin:.25px;
+  margin-top:-24px;
+  margin-bottom: 5px;
+  border-radius:8px;
+  }
+
+
+
+.icon{
+  font-size:60px;
+  color:#6500ff;
+  background:#ffffff;
+  text-align: center;
+  width:166px;
+  height:166px;
+  border-radius: 8px;
+  display:inline-block;
+  box-sizing: border-box;
+  border:8px ridge;
+  border-color:#6500ff;
+}
+
+
+
+input[type="checkbox"]{
+  opacity:0;
+}
+
+
+input[type="checkbox"]:checked + .game-card{
+  opacity:1;
+}
